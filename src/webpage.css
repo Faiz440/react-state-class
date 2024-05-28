@@ -1,0 +1,109 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 1280px;
+  height: 100px;
+  padding: 0 50px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.logo {
+  height: 70px; /* Adjust as needed */
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-list li {
+  margin-left: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  height: 45px;
+  width: 90px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover and active effects */
+}
+
+.button-login {
+  background-color: #007BFF; /* Adjust as needed */
+  color: white;
+}
+
+.button-login:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button-login:active {
+  background-color: #003f7f; /* Even darker blue on click */
+}
+
+.button-signup {
+  background-color: rgb(188, 162, 17); 
+  color: white;
+}
+
+.button-signup:hover {
+  background-color: #b59415; /* Darker gold on hover */
+}
+
+.button-signup:active {
+  background-color: black; /* Even darker gold on click */
+}
+
+.footer {
+  background-color: #da2828;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  margin-top: auto; /* Push the footer to the bottom */
+}
