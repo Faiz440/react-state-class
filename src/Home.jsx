@@ -75,7 +75,7 @@ function Home() {
   return (
     <>
       <div className="container mt-5">
-        <div style={{ display: "flex", gap: "20px" }}>
+        <div style={{ display: "flex", gap: "20px",paddingTop: "5px", }}>
           <Link
             to="/Create"
             className="btn btn-success my-3"
@@ -86,6 +86,7 @@ function Home() {
               padding: "15px 15px",
               textDecoration: "none",
               marginRight: "500px",
+              paddingTop: "15px",
             }}
           >
             Add to cart
@@ -147,7 +148,7 @@ function Home() {
                       />
                     </td>
                     <td>{d.title}</td>
-                    <td>{d.brand}</td>
+                    <td>{d.brand || "not a brand"}</td>
                     <td>{d.price}</td>
                     <td>{d.rating}</td>
                     <td>
