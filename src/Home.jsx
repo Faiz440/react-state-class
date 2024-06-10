@@ -75,7 +75,7 @@ function Home() {
   return (
     <>
       <div className="container mt-5">
-        <div style={{ display: "flex", gap: "20px",paddingTop: "5px", }}>
+        <div style={{ display: "flex", gap: "20px", paddingTop: "5px" }}>
           <Link
             to="/Create"
             className="btn btn-success my-3"
